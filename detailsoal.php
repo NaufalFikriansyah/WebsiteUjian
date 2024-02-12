@@ -42,8 +42,12 @@
                                                 <th scope="row"><?php echo $x?></th>
                                                 <td><?php echo $data['pertanyaan']?></td>
 
-                                                <td><a class="btn btn-sm btn-primary text-white" href="detailjawaban.php?no=<?php echo $data['no']?>"><i class='fas fa-eye'></i></a>
-                                                 <a class="btn btn-sm btn-danger" onclick="return confirm('Apakah Anda Yakin Untuk Menghapus ?');" href="hapussoal.php?no=<?php echo $data['no']?>&id=<?php echo $_GET['no']?>"><i class='fas fa-trash'></i></a></td>
+                                                <td><a class="btn btn-sm btn-primary text-white" href="detailjawaban.php?no=<?php echo $data['no']?>">
+                                                <img src="src\paper.png" alt="Delete Icon" style="width: 20px; height: 20px;">
+                                            </a>
+                                                 <a class="btn btn-sm btn-danger" onclick="return confirm('Apakah Anda Yakin Untuk Menghapus ?');" href="hapussoal.php?no=<?php echo $data['no']?>&id=<?php echo $_GET['no']?>">
+                                                 <img src="src\delete.png" alt="Delete Icon" style="width: 20px; height: 20px;">
+                                                </a></td>
                                             </tr>
                                             <?php
                                             $x++;

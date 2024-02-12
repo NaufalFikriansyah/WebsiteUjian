@@ -70,8 +70,12 @@
                                                 <td>
                    
                                                   
-                                                    <a class="btn btn-sm btn-primary text-white" href="detailsoal.php?no=<?php echo $data['no']?>"><i class='fas fa-eye'></i></a>
-                                                      <a class="btn btn-sm btn-primary text-white" href="updateujian.php?no=<?php echo $data['no']?>"><i class='fas fa-edit'></i></a>
+                                                    <a class="btn btn-sm btn-primary text-white" href="detailsoal.php?no=<?php echo $data['no']?>">
+                                                    <img src="src\paper.png" alt="Edit Icon" style="width: 20px; height: 20px;">
+                                                </a>
+                                                      <a class="btn btn-sm btn-primary text-white" href="updateujian.php?no=<?php echo $data['no']?>">
+                                                      <img src="src\update2.webp" alt="Edit Icon" style="width: 20px; height: 20px;">
+                                                    </a>
 
                                                     
                                                     <?php

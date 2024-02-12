@@ -21,7 +21,7 @@
                         <div class="card-body text-white">   
                             <i class='fas fa-user-graduate' style='font-size:155px'></i>
                             <p>
-                                <img style="width:80%" src="siswa.jpg">
+                                <img style="width:40%" src="src\student.png">
                             <h5>SISWA</h5>
                             <a class="btn btn-dark btn-sm btn-block" href="detailsiswa.php">DETAIL</a>
                         </div>
@@ -32,9 +32,9 @@
                     <center>
                     <div class="card bg-dark">
                         <div class="card-body text-white">   
-                            <i class='fas fa-laptop' style='font-size:155px'></i>
+                            
                             <p>
-                             <img style="width:40%" src="ujiann">
+                             <img style="width:40%" src="src\ujian.png">
                             <h5>UJIAN</h5>
                             <a class="btn btn-dark btn-sm btn-block" href="detailujian.php">DETAIL</a>
                         </div>
@@ -47,7 +47,7 @@
                         <div class="card-body text-white">   
                            <i class='fas fa-school' style='font-size:155px'></i>
                             <p>
-                            <img style="width:40%" src="kelas">
+                            <img style="width:40%; height: 125px;" src="src\school.webp">
                             <h5>KELAS</h5>
                             <a class="btn btn-dark btn-sm btn-block" href="detailkelas.php">DETAIL</a>
                         </div>

@@ -61,12 +61,15 @@
                                                 <td><?php echo $data['jenis_kelamin']?></td>
                                                 <td><?php echo $data['alamat']?></td>
                                         
-                                                <td><a class="btn btn-sm btn-primary text-white" href="updatesiswa.php?no=<?php echo $data['nis']?>"><i class='fas fa-edit'></i></a>
+                                                <td>
+                                                    <a class="btn btn-sm btn-primary text-white" href="updatesiswa.php?no=<?php echo $data['nis']?>">
+                                                    
+                                                        <img src="src\student2.png" alt="Edit Icon" style="width: 20px; height: 20px;">
+                                                    </a>
                                                 <a class="btn btn-sm btn-danger"" onclick="return confirm('Apakah Anda Yakin Untuk Menghapus ?');" href="hapussiswa.php?no=<?php echo $data['nis']?>" >
-          
-
-        
-          <i class='fas fa-trash'></i></a>
+                                                
+                                                <img src="src\delete.png" alt="Delete Icon" style="width: 20px; height: 20px;">
+                                                </a>
                                                 </td>
                                             </tr>
                                             <?php
